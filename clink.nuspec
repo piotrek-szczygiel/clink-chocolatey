@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>clink-maintaned</id>
+    <version>1.2.12</version>
+    <owners>Piotr Szczygieł</owners>
+    <title>Clink (maintaned)</title>
+    <authors>Martin Ridgers, Christopher Antos</authors>
+    <projectUrl>https://chrisant996.github.io/clink/</projectUrl>
+    <iconUrl>https://user-images.githubusercontent.com/88981/41620293-d7e893d0-743b-11e8-95f2-6f102e3918a6.png</iconUrl>
+    <projectSourceUrl>https://github.com/chrisant996/clink</projectSourceUrl>
+    <packageSourceUrl>https://github.com/piotrek-szczygiel/clink-chocolatey</packageSourceUrl>
+    <docsUrl>https://chrisant996.github.io/clink/clink.html</docsUrl>
+    <bugTrackerUrl>https://github.com/chrisant996/clink/issues</bugTrackerUrl>
+    <licenseUrl>https://github.com/chrisant996/clink/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>clink cmd</tags>
+    <summary>Powerful Bash-style command line editing for cmd.exe</summary>
+    <description>Clink combines the native Windows shell cmd.exe with the powerful command line editing features of the GNU Readline library, which provides rich completion, history, and line-editing capabilities. Readline is best known for its use in the well-known Unix shell Bash, the standard shell for Mac OS X and many Linux distributions.</description>
+    <releaseNotes>
+      * Improved diagnostic output for coroutines (Ctrl-X,Ctrl+Z), plus more diagnostic info when the lua.debug setting is enabled.
+      * Fixed potential for a script error when a coroutine gets skipped due to a new prompt starting.
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
