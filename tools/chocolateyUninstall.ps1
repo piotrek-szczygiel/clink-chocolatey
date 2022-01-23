@@ -4,6 +4,6 @@ $tools = Split-Path $MyInvocation.MyCommand.Definition
 
 Uninstall-ChocolateyPackage `
     -PackageName 'clink-maintained' `
-    -File (Get-Uninstaller -Name 'Clink v1.2.12.4a4e22') `
+    -File (Get-Uninstaller -Name 'Clink v1.3.3.d46fcb') `
     -FileType 'EXE' `
     -SilentArgs '/S'

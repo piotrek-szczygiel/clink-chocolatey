@@ -1,7 +1,7 @@
 ﻿Install-ChocolateyPackage `
     -PackageName 'clink' `
-    -Url 'https://github.com/chrisant996/clink/releases/download/v1.3.2/clink.1.3.2.222baa_setup.exe' `
-    -Checksum '86835DDD95EE1AFE1FEDC9DF7C255D8403BDEB530768C2636EBDF6D83299B180' `
+    -Url 'https://github.com/chrisant996/clink/releases/download/v1.3.3/clink.1.3.3.d46fcb_setup.exe' `
+    -Checksum '9855472F425FC585B46E9FD30112EE93EDEB8DA1879511AE22FC2CAEC07E68EA' `
     -ChecksumType 'SHA256' `
     -FileType 'EXE' `
     -SilentArgs '/S'
