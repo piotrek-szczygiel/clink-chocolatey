@@ -7,7 +7,6 @@
     <title>Clink (maintained)</title>
     <authors>Martin Ridgers, Christopher Antos</authors>
     <projectUrl>https://chrisant996.github.io/clink/</projectUrl>
-    <iconUrl>https://user-images.githubusercontent.com/88981/41620293-d7e893d0-743b-11e8-95f2-6f102e3918a6.png</iconUrl>
     <projectSourceUrl>https://github.com/chrisant996/clink</projectSourceUrl>
     <packageSourceUrl>https://github.com/piotrek-szczygiel/clink-chocolatey</packageSourceUrl>
     <docsUrl>https://chrisant996.github.io/clink/clink.html</docsUrl>
