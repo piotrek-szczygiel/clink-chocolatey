@@ -4,3 +4,4 @@
     -Checksum 'BF8EAB8333ACD52AA7DDC2AB241634D31F90885C61DB308EBA9C4C565997B69C' `
     -ChecksumType 'SHA256' `
     -FileType 'EXE' `
+    -SilentArgs '/S'
