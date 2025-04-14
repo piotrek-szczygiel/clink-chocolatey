@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>clink-maintained</id>
-    <version>1.7.14</version>
+    <version>1.7.16</version>
     <owners>Piotr Szczygieł</owners>
     <title>Clink (maintained)</title>
     <authors>Martin Ridgers, Christopher Antos</authors>
