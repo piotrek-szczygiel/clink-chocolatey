@@ -1,0 +1,24 @@
+name: Deploy Chocolatey Package
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Pack Chocolatey package
+        run: choco pack
+
+      - name: Push to Chocolatey
+        env:
+          CHOCOLATEY_API_KEY: ${{ secrets.CHOCOLATEY_API_KEY }}
+        run: |
+          $nupkg = Get-ChildItem -Path . -Filter *.nupkg | Select-Object -First 1
+          choco apikey --key "$env:CHOCOLATEY_API_KEY" --source "https://push.chocolatey.org/"
+          choco push $nupkg.FullName --source "https://push.chocolatey.org/"
